@@ -60,7 +60,7 @@ namespace GenericListIteratorConsoleExample
 		/// <summary>
 		/// The property Size is used MyGenericListIterator.
 		/// </summary>
-		public int Size { get { return size; } set { size = value; } }
+		internal int Size { get { return size; } set { size = value; } }
 
 		/// <summary>
 		/// The Get method gets an item of type T from the array at position i if that position
