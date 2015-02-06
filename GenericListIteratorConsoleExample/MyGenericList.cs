@@ -30,7 +30,7 @@ namespace GenericListIteratorConsoleExample
 	///		out of bounds
 	/// Add - Adds an item to the list, doubling the current list length if the end of the
 	///		previously defined size has been reached
-	/// Iterator - Returns a MyGenericListIterator object (this is possible because it
+	/// GetMyEnumerator - Returns a MyGenericListEnumerator object (this is possible because it
 	///		implements IMyEnumeratorInterface which is the expected return type)
 	/// 
 	/// -Internal classes-
